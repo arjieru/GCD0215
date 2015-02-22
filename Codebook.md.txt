@@ -1,0 +1,29 @@
+This file describes the variables, the data, and any transformations or work that was performed to clean up the data.
+
+A full description of the data is available at the site where it was obtained: 
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+
+Data source: 
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
+Variables:
+
+x_train, y_train, subject_train, x_test, y_test, subject_test are all used to read and cobtain the raw data from the assignment.
+
+x1 is the concatenation of all X data.
+y1 is the concatenation of all Y data.
+subject1 is the concatenation of all Subject data.
+
+features contains features.txt
+
+mean_std - contains the subsets of the mean and standard deviation
+activity_labels contains activity_labels.txt
+final is the merging of all variables.
+final1 is the cleand up version of final.
+
+final_data.txt is the file with cleaned up data(final1).
+
+
+
+
+
